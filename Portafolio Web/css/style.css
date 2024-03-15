@@ -1,0 +1,197 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+
+
+}
+
+
+body{
+
+    background-image: url(/img/black-gold-optua4rlhb9gnk6t.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+
+
+header{
+
+background: rgb(67, 69, 70);
+opacity: 85%;
+width: 100%;
+clear: both;
+content: "";
+display: table;
+box-shadow: 30px;
+}
+.menu{
+
+width: 900px;
+
+float: left;
+    
+}
+
+nav{
+    float: left;
+    transition: width 0.5s;
+}
+
+nav ul li{
+
+    list-style: none;
+    margin-left: 25px;
+    padding: 15px 0;
+    float: left;
+
+}
+
+nav ul li a{
+text-decoration: none;
+color: rgb(238, 226, 226);
+font-weight: bold;
+font-size: large;
+
+
+
+}
+
+nav ul li a::before{
+
+    display: block;
+    content: none;
+    width: 0%;
+    background-color: rgb(19, 17, 17);
+    height: 5px;
+    top: 0;
+    position: absolute;
+    transition: width 0.5s;
+    
+}
+nav ul li a:hover::before{
+    width: 100%;
+}
+
+.nombre{
+
+    float: left ;
+    text-decoration: double;
+}
+
+button{
+    background-color: rgb(201, 245, 6);
+    border: 1px solid;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 10px;
+    width: 210px;
+    
+}
+
+button:hover{
+
+    background-color: rgb(245, 234, 234);
+    color: rgb(19, 18, 18);
+    
+}
+.contenedor{
+    
+   height: 50vh;
+   margin: 5%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+.contenedor2{
+
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+position: absolute;
+top: 50%;
+left: 45%;
+
+}
+
+.contenedor3{
+background-color: antiquewhite;
+opacity: 50%;
+width: 3%;
+font-size: 50px;
+height: 25vh;
+border-radius: 10px;
+box-shadow: 30px crimson;
+text-align: center;
+
+
+}
+
+h1{
+
+    font-size: 55px;
+
+}
+
+p{
+
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.twitter{
+
+   color: black;
+
+}
+
+.facebook{
+
+    color: black;
+    
+}
+
+.whatsapp{
+color: black;
+
+}
+
+.instagram{
+
+    color: black;
+}
+
+.nombre{
+    float: left;
+    font-size: 50px;
+    align-items: start;
+    
+}
+
+.usuario{
+
+    float: right;
+    text-align: left;
+}
+
+.pie{
+
+    text-align: center;
+    color: azure;
+    font-size: 2px;
+}
+
+.icono{
+    float: right;
+
+}

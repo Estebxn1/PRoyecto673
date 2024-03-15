@@ -8,3 +8,18 @@ body{
     background-color: aqua;
     
 }
+
+header{
+    height: 20vh;
+    text-align: center;
+}
+ 
+main{
+    height: 70vh;
+}
+
+footer{
+    height: 40vh;
+    background-color: aquamarine;
+
+}
